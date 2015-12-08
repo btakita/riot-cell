@@ -26,7 +26,6 @@
   "devDependencies": {
   },
   "preferGlobal": true,
-  "private": true,
   "analyze": true,
   "license": "Apache"
 }
