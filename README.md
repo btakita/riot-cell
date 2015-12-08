@@ -7,7 +7,7 @@ riotjs cell programming (aka observers, signals/slots, computed properties)
 var cell = require('riot-cell')
   , cat = cell()('Fluffy').send(catOnChange).on('change', catOnChange)
   ;
-cat('Pickles')
+cat('Pickles');
 function catOnChange(cat2) {
   console.log('I love '+cat2+'!');
 }
