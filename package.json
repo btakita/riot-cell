@@ -1,6 +1,6 @@
 {
   "name": "riot-cell",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "Brian Takita <brian.takita@gmail.com>",
   "contributors": [],
@@ -25,7 +25,6 @@
   },
   "devDependencies": {
   },
-  "preferGlobal": true,
   "analyze": true,
   "license": "Apache"
 }
