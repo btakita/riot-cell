@@ -1,11 +1,12 @@
 {
   "name": "riot-cell",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "author": "Brian Takita <brian.takita@gmail.com>",
   "contributors": [],
   "scripts": {
   },
+  "main": "./riot-cell.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/btakita/riot-cell"
