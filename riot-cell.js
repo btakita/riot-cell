@@ -1,4 +1,9 @@
-var riot = require('riot');
+var observable;
+if (typeof riot !== 'undefined') {
+  observable = riot.observable;
+} else {
+  observable = require('riot').observable;
+}
 module.exports = function(params) {
   var params2 = params || {}
     , writable = params2.writable != null ? params2.writable : true
@@ -24,7 +29,7 @@ module.exports = function(params) {
       return value;
     }
   }
-  riot.observable(cell);
+  observable(cell);
   cell.send = function(cb) {
     var value = cell.value;
     if (typeof cb === 'string') {
